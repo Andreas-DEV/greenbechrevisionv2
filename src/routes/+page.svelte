@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import "../app.css";
+    import Top from "$lib/Top.svelte";
+    import Hero from "$lib/Hero.svelte";
+    import Header from "$lib/Header.svelte"
+</script>
+
+<!-- TOP HEADER -->
+<Top />
+
+<!-- HEADER/HERO SECTION -->
+ <Header/>
+ <!-- <Hero/> -->

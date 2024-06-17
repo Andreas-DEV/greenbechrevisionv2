@@ -2,7 +2,23 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'header': '#A6A590',
+        'subheader': 'B6B7A5',
+        'light': '#FFFFFF'
+      },
+      fontSize: {
+        verysmall: '0.625rem',
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      }
+    },
   },
    plugins: [require('daisyui')],
 }
